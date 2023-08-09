@@ -1,0 +1,75 @@
+site_name: Technologies Émergentes
+site_author: Étienne Rivard
+theme:
+  name: material
+  language: fr
+  features:
+    - content.code.copy
+  icon:
+    admonition:
+      note: fontawesome/solid/note-sticky
+      abstract: fontawesome/solid/book
+      info: fontawesome/solid/circle-info
+      tip: fontawesome/solid/bullhorn
+      success: fontawesome/solid/check
+      question: fontawesome/solid/circle-question
+      warning: fontawesome/solid/triangle-exclamation
+      failure: fontawesome/solid/bomb
+      danger: fontawesome/solid/skull
+      bug: fontawesome/solid/robot
+      example: fontawesome/solid/flask
+      quote: fontawesome/solid/quote-left
+
+plugins:
+  - search
+
+extra_css:
+  - css/extra.css
+
+extra_javascript:
+  - javascript/alltarget.js
+
+nav:
+  - 'Page principale': 'index.md'
+  - 'Leçons':
+      - 'Introduction': 'introduction.md'
+      - 'Veille technologique': 'veille-technologique.md'
+      - 'Identification des besoins': 'identification-des-besoins.md'
+      - 'Recherche': 'recherche.md'
+      - 'Matrice de décision': 'matrice-decision.md'
+
+  - 'Évaluations':
+      - 'Résumé des évaluations': 'evaluations-sommatives.md'
+      - 'Rapport de techno': 'rapport-de-techno.md'
+      - 'Projet de session': 'projet-de-session.md'
+  - 'Outils':
+      - 'Cartographie': 'cartographie.md'
+      - 'Sites Web': 'sites.md'
+      - 'Zotero': 'zotero.md'
+
+markdown_extensions:
+  - admonition
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - attr_list
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+docs_dir: 'wiki'
+site_dir: 'www'
+use_directory_urls: True
