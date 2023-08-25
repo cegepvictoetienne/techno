@@ -41,6 +41,7 @@ nav:
   - 'Évaluations':
       - 'Résumé des évaluations': 'evaluations-sommatives.md'
       - 'Rapport de techno': 'rapport-de-techno.md'
+      - 'Rapport de projet': 'rapport-de-projet.md'
       - 'Projet de session': 'projet-de-session.md'
   - 'Outils':
       - 'Cartographie': 'cartographie.md'
