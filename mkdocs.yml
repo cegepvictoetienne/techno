@@ -40,6 +40,7 @@ nav:
 
   - 'Évaluations':
       - 'Résumé des évaluations': 'evaluations-sommatives.md'
+      - 'Fiche de projet': 'fiche-de-projet.md'
       - 'Rapport de techno': 'rapport-de-techno.md'
       - 'Rapport de projet': 'rapport-de-projet.md'
       - 'Projet de session': 'projet-de-session.md'
