@@ -7,10 +7,8 @@
 Tour de table | 50 minutes  
 Pause | 10 minutes  
 Plan de cours | 20 minutes  
-Présentation des sujets de discussion et vote | 30 minutes  
-Pause | 10 minutes  
+Présentation des sujets de discussion | 10 minutes   
 Présentation des ressources du cours | 10 minutes  
-Présentation du premier travail - le rapport de stage | 40 minutes  
 
 
 ## Tour de table  
@@ -29,15 +27,6 @@ Lecture du plan de cours avec les élèves.
 
 Voici la liste des sujets de discussion durant la session :  
 
-Programmation Web  
-Programmation mobile  
-Le Big Data  
-Le piratage  
-La réalité virtuelle  
-Les jeux vidéos  
-La domotique  
-Deepfakes  
-Blockchains  
-Web 3.0  
-
-[Votez pour les sujets qui vous intéressent le plus](https://forms.office.com/r/PGVGDS9yEe)  
+- Intelligence artificielle vs programmeurs  
+- Deepfakes  
+- Réalité virtuelle ou Réalité augmentée en 2025
