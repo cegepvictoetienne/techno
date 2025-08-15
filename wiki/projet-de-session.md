@@ -1,23 +1,60 @@
-# Projet de session
+# Épreuve finale (Projet de session)  
 
-## Idées de sujets
+# Description globale  
 
-- Robot conversationnel (_Chatbot_)
-- Utilisation d'une base de données non-relationnelle (ex: NoSQL)
-- Apprentissage machine (_Machine learning_)
-- Vision informatique (_Computer vision_)
-- Application mobile avec Flutter/Dart ou autre plateforme permettant un déploiement sur plusieurs plateformes
-- Application pour PC, Mac et Linux avec Electron ou autre plateforme permettant un déploiement sur PC, Mac et Linux
-- Projet de programmation avec un langage pas couvert dans vos autres cours (ex: Go, Rust, Python, Julia, F#)
-- Projet impliquant la technologie Blockchain
-- Développer un module pour Metasploit
+L'épreuve finale est composé en deux parties :  
 
-## Évaluations
+- Un projet de recherche sur une technologie émergente entamé à la 5ème semaine de cours et qui s'étend sur toute la session. Vous aurez à choisir et évaluer une technologie, rechercher de l'information sur ses concepts et donner un avis éclairé sur celle-ci.  
+- Une preuve de concept (prototype) qui sera aussi développé pour appuyé votre décision.  
 
-| Item      | Pondération |
-| --------- | ----------- |
-| Dossier d'analyse | 30%         |
-| Prototype | 40%         |
+# Consignes  
+
+## Choix de la technologie  
+
+- Vous devez choisir d'étudier une technologie émergente qui vous intéresse et que vous n'avez jamais utilisée durant votre parcours au cégep.  
+- Élaborez un projet que vous voulez faire avec cette technologie et rédiger un document d'approbation du projet.  
+- Votre enseignant doit approuver votre choix et au besoin il recadrera les limites de votre projet.  
+
+## Rapport de recherche  
+
+Le rapport de recherche est un document au format Word qui résume vos expérimentations. On y retrouve aussi vos réflexions et avis sur la technologie que vous avez utilisée. En plus d'une page titre et d'une table des matières, le document doit comporter les éléments suivants:  
+
+##  Retour sur la technologie
+
+- Une introduction qui présente la nature du projet et les attentes que vous aviez quand vous avez débuté le projet.  
+- Une explication des concepts de la technologie appuyée d'une carte mentale.  
+- Un avis juste et éclairé sur votre choix technologiques. Dans cet avis vous devez aussi faire un comparatif avec d'autres technologies semblable à l'aide d'une matrice de décision.  
+
+## Métier d'un.e technicien.ne utilisant la technologie  
+
+- Le titre du poste  
+- Les compétences requises pour le poste  
+- Les tâches effectuées par le titulaire du poste  
+- Une brève description du poste  
+- Le salaire moyen (citez la source de l'information)  
+
+## Retour sur l'élaboration du prototype
+
+- Un relevé complet des exigences techniques du projet.  
+- Une description sous forme de fiche de dépannage de 3 problèmes que vous avez rencontré. Dans votre fiche de dépannage vous devez expliquer le problème, énoncer les causes possibles et présenter la solution que vous avez adoptée. Si pertinent ajouter des captures d'écrans ou des extraits de codes.  
+- Un court texte qui explique comment votre prototype réussi à atteindre les attentes du projet. Si vous n'avez pas réussi, expliquez les raisons de cet échec.  
+- Un avis sur la longévité, la stabilité, l’efficacité et la maintenabilité des composants en relation avec vos recherches et vos expérimentations.  
+
+## Recherche et documentation  
+
+- Une veille technologique avec au moins une entrée par semaine. Utilisez le format décrit dans les notes sur les veilles technologiques  
+- Une bibliographie des références utilisées.  
+
+## Prototype  
+
+Vous devez développer un prototype utilisant la technologie choisie. Les fonctionnalités du prototype doivent répondrent aux attentes énoncées dans le document d'approbation du projet.
+Modalités d'évaluation et de remise
+
+Pondération : 70%
+
+- Le rapport de recherche doit être un document au format Word intitulé NomPrenom_RapportRecherche.docx  
+- Il sera remis dans un devoir Teams au dernier cours     
+- Le prototype sera présenté en classe ou individuellement avec l'enseignant à la dernière semaine de cours.  
 
 # Niveau d'intelligence artificielle à utiliser  
 
@@ -25,33 +62,25 @@
 -|-|  
 :material-lightbulb-outline:{ .lg .middle }|**0**|  Ne pas utiliser l'intelligence artificielle<br/><br/>[Plus de détails ici](https://techinfo.profinfo.ca/niveaux-ia/)
 
-## Dossier d'analyse
+## Grille  
 
-| 30 points                                     | Excellent                                                                                                                                                       | Satisfaisant                                                       | Minimal                                                                                                     | Faible                                                             | Insuffisant                                                                 |
-| --------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ | --------------------------------------------------------------------------- |
-| Présentation des buts du projet               | Les buts sont clairement identifiés</br>3 points                                                                                                                |                                                                    | Les buts sont identifiés mais ne sont pas clairs</br>2 points                                               |                                                                    | Les buts sont absents </br>0 point                                          |
-| Liste des concepts                            | Les concepts sont clairements identifiés</br>3 points                                                                                                           |                                                                    | Les concepts sont identifiés mais ne sont pas clairs</br>2 points                                           |                                                                    | Les concepts sont absents</br>0 point                                       |
-| Références                                    | Au moins 5 sources fiables sont données en références</br>5 points                                                                                              | Au moins 4 sources fiables sont données en références</br>4 points | Au moins 3 sources fiables sont données en références</br>3 points                                          | Au moins 2 sources fiables sont données en références</br>2 points | Moins de 2 sources fiables sont données en référence</br>0 point            |
-| Cartographie                                  | La cartographie est clairement disposée</br>4 points                                                                                                            |                                                                    | La cartographie n'est pas clairement disposée</br>2 points                                                  |                                                                    | La cartographie est absente</br>0 point                                     |
-| Tableau comparatif avec d'autres technologies | La comparaison de la technologie expérimentée avec d'autres technologies semblables est exposée clairement</br>5 points                                         |                                                                    | La comparaison manque de clareté</br>3 points                                                               |                                                                    | La comparaison n'est pas claire ou n'a pas été faite</br>0 point            |
-| Journal des enjeux et solutions               | Au moins 3 problèmes rencontrés sont notés clairement sous forme de fiche de dépannage, avec extraits de code (problème, cause possible, solution)</br>5 points |                                                                    | Au moins 2 problèmes</br>3 points                                                                           | Au moins 1 problème</br>2 points                                   | Aucun problème</br>0 point                                                  |
-| Conclusion                                    | La conclusion est claire et pertinente. Elle reprend les buts recherchés et donne un avis clair sur le potentiel de la technologie</br>5 points                 |                                                                    | La conclusion est plus ou moins claire et pertinente. Elle aurait besoin de plus de précisions</br>3 points |                                                                    | La conclusion n'est ni claire ni pertinente ou elle est absente</br>0 point |
-
-## Prototype
-
-### Qualité du code
-
-Voici les éléments recherchés dans la qualité du code :
-
-- Respect des normes de programmation
-- Respect de la syntaxe du langage
-- Choix approprié des types de variables et des structures de données
-- Algorithmes efficaces et lisibles (logique claire)
-- Absence de bogues
-
-| 40 points               | Excellent                                                                                                                                                                                                                               | Satisfaisant                                    | Minimal                                                                                                      | Faible                                        | Insuffisant                                                                                              |
-| ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | --------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| Atteinte des buts visés | Le programme fait tout ce qui était initialement prévu</br>10 points                                                                                                                                                                    |                                                 | Il manque une grande partie de ce qui était initialement prévu</br>6 points                                  |                                               | Le programme ne fonctionne pas ou a complètement dévié de son but original</br>0 point                   |
-| Tests fonctionnels      | Les tests fonctionnels sont clairement notés dans un fichier placé dans le dossier dev et ils sont pertinents et complets (note : en bas de 30 cas d'essai, il est impossible que les tests fonctionnels soient complets)</br>10 points |                                                 | Les tests fonctionnels notés sont incomplets</br>6 points                                                    |                                               | Il n'y a pas de fichier de tests fonctionnels ou les tests fonctionnels sont insatisfaisants</br>0 point |
-| Qualité du code         | Le programme comporte tout ce qu'un programme de qualité doit comporter. </br>10 points                                                                                                                                                 | Le programme comporte une lacune.</br>8 points | Le programme comporte 2 lacunes.</br>6 points                                                                | Le programme comporte 3 lacunes.</br>4 points | Le programme comporte plus de 3 lacunes.</br>0 point                                                     |
-| Documentation du code   | Les commentaires d'entête (de fichiers, de classes, de fonctions, selon le langage) sont tous présents et le code compte environ 1 ligne de commentaire à toutes les 10 lignes de code</br>10 points                                    |                                                 | Il manque quelques commentaires d'entête ou il y a moins d'un commentaire par 10 lignes de code</br>6 points |                                               | Il manque plusieurs commentaires d'entête et il y a peu ou pas de commentaires dans le code</br>0 point  |
+Élément|Excellent|Satisfaisant|Minimal|Insuffisant
+--|--|--|--|--
+__Cerner les exigences techniques d’un projet de développement<br/><br/> Décrire la nature du projet, et ses exigences techniques, carte mentale)__ {: colspan=5}||&#8288 {: style="padding:0"}|&#8288 {: style="padding:0"}|&#8288 {: style="padding:0"}|&#8288 {: style="padding:0"}
+La description des attentes du projet est claire et précise.|Les attentes du projet sont clairement décrites.<br/>5 points||Les attentes du projet sont sommairement décrites.<br/>3 points|Les attentes du projet sont imprécises.<br/>0 point
+Un relevé complet des exigences techniques du projet est présent|Un relevé exhaustif des exigences techniques est présent.<br/>5 points|Un relevé partiel des exigences techniques est présent.<br/>4 points|Un relevé minimal des exigences techniques est présent.<br/>3 points|Un relevé insuffisant des exigences techniques est présent.<br/>0 point
+Les concepts clés de la technologie sont clairement résumé sous forme de carte mentale.|Les concepts sont clairement expliqués à l’aide de la carte mentale.<br/>5 points||Les concepts sont sommairement expliqués à l’aide de la carte mentale.<br/>3 points|Les concepts sont faiblement expliqués.<br/>0 point
+__Analyser l’information sur la profession de technicienne et technicien en informatique__  {: colspan=5}||&#8288 {: style="padding:0"}|&#8288 {: style="padding:0"}|&#8288 {: style="padding:0"}|&#8288 {: style="padding:0"}
+Décrire le poste (titre, description, tâches, salaire) qui utilise la technologie du projet|Le poste est clairement décrit.<br/>5 points|<br/>5 points|Le poste est sommairement décrit.<br/>3 points|Le poste est décrit de manière insuffisante.<br/>0 point
+__Pertinence des avis sur la compaptbilité des composants <br/><br/> Journal des enjeux__ {: colspan=5}||&#8288 {: style="padding:0"}|&#8288 {: style="padding:0"}|&#8288 {: style="padding:0"}|&#8288 {: style="padding:0"}
+Les problèmes rencontrés sont clairement notés sous forme de fiche de dépannage.|Trois problèmes rencontrés sont clairement notés au format requis.<br/><br/>10 points|Deux problèmes rencontrés sont clairement notés au format requis.<br/><br/>8 points|Seulement un problème rencontré est clairement noté au format requis.<br/><br/>6 points|Aucun problème rencontré n’est clairement noté au format requis.<br/><br/>0 point
+__Analyse juste des caractéristiques des plateformes, des applications et des outils de développement<br/><br/> Matrice de décision__ {: colspan=5}||&#8288 {: style="padding:0"}|&#8288 {: style="padding:0"}|&#8288 {: style="padding:0"}|&#8288 {: style="padding:0"}
+Un avis juste et éclairé est donné quant au choix de la technologie.|L’avis est pertinent, clair et s’appuie solidement sur des sources pertinentes.<br/><br/>10 points|L’avis est pertinent et clair mais n’est pas suffisamment appuyé par des sources<br/><br/>8 points|L’avis est pertinent mais il manque de clarté et n’est pas suffisamment appuyé par des sources.<br/><br/>6 points|L’avis est n’est pas pertinent et ne s’appuie que sur l’opinion de l’élève.<br/><br/>0 point
+La technologie est clairement comparée à d’autres technologies semblables à l’aide d’une matrice de décision.|La comparaison entre la technologie expérimentée avec d'autres technologies semblables est exposée clairement<br/><br/>10 points||La comparaison entre la technologie expérimentée avec d'autres technologies semblables est exposée sommairement.<br/><br/>6 points|La comparaison entre la technologie expérimentée avec d'autres technologies semblables est exposée faiblement.<br/><br/>0 point
+__Pertinence des avis sur la longévité, la stabilité, l’efficacité et la maintenabilité des composants<br/><br/> Prototype et preuve de concept<br/><br/> Donne un avis clair sur le potentiel de la technologie__ {: colspan=5}||&#8288 {: style="padding:0"}|&#8288 {: style="padding:0"}|&#8288 {: style="padding:0"}|&#8288 {: style="padding:0"}
+Une preuve de concept vient appuyer fortement les concepts et la technologie ulilisée.|La preuve de concept répond totalement aux attentes.<br/><br/>20 points|La preuve de concept répond partiellement aux attentes.<br/><br/>16 points|La preuve de concept répond minimalement aux attentes.<br/><br/>12 points|La preuve de concept ne répond pas aux attentes.<br/><br/>0 point
+Un avis judicieux est donné sur le potentiel de la technologie.|L’avis est clair et pertinent.<br/><br/>10 points||L’avis est passable mais manque de précisions.<br/><br/>6 points|L’avis n’est pas pertinent et sans fondement.<br/><br/>0 point
+Les entrées à la veille technologique sont régulières.|Des entrées ont été fait hebdomadairement dans la veille.<br/><br/>8 points||Des entrées ont été fait régulièrement dans la veille.<br/><br/>5 points|La veille comporte peu d’entrées.<br/><br/>0 point
+Un résumé clair et concis est fait pour chaque entrée de la veille.|Toutes les entrées ont un résumé clair et concis<br/><br/>7 points|Une majorité d’entrées ont un résumé clair et concis.<br/><br/>6 points|La plupart des entrées ont un résumé clair et concis<br/><br/>4 points|Les résumés sont confus ou absents<br/><br/>0 point
+__Choix approprié des sources d’information__ {: colspan=5}||&#8288 {: style="padding:0"}|&#8288 {: style="padding:0"}|&#8288 {: style="padding:0"}|&#8288 {: style="padding:0"}
+Les sources utilisées sont fiables et pertinentes.<br/><br/> Un nombre suffisant de sources est utilisées.<br/><br/> Les sources utilisées sont correctement documentées.|Toutes les sources étaient pertinentes et toutes les sources étaient bien documentées<br/><br/>5 points||La majorité des sources étaient pertinentes, un nombre suffisant de sources a été utilisé et la majorité des sources étaient bien documentées.<br/><br/>3 points|Peu de sources étaient pertinentes, un nombre insuffisant de sources a été ulilisé et peu de sources étaient bien documentées.<br/><br/>0 point
