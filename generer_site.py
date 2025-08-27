@@ -62,6 +62,15 @@ def generer_projet_integrateur():
 
         f.writelines(grille)
 
+def generer_horaire_rencontre():
+
+    grille = generer_grille("template/horaire-rencontre.xlsx", "grille")
+
+    with open("./wiki/horaire-rencontre.md", "w") as f:
+        f.writelines(grille)
+
 
 print("Générer la page du projet de session")
 generer_projet_integrateur()
+print("Générer la page de l'horaire de rencontre")
+generer_horaire_rencontre()
