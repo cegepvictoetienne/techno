@@ -31,24 +31,24 @@ extra_javascript:
   - javascript/alltarget.js
 
 nav:
-  - 'Page principale': 'index.md'
-  - 'Leçons':
-      - 'Introduction': 'introduction.md'
-      - 'Veille technologique': 'veille-technologique.md'
-      - 'Identification des besoins': 'identification-des-besoins.md'
-      - 'Recherche': 'recherche.md'
-      - 'Matrice de décision': 'matrice-decision.md'
-      - 'Matrice Eisenhower': 'matrice-eisenhower.md'
+  - "Page principale": "index.md"
+  - "Leçons":
+      - "Introduction": "introduction.md"
+      - "Veille technologique": "veille-technologique.md"
+      - "Identification des besoins": "identification-des-besoins.md"
+      - "Recherche": "recherche.md"
+      - "Matrice de décision": "matrice-decision.md"
+      - "Matrice Eisenhower": "matrice-eisenhower.md"
 
-  - 'Évaluations':
-      - 'Résumé des évaluations': 'evaluations-sommatives.md'
-      - 'Approbation de projet': 'approbation-de-projet.md'
-      - 'Rapport de techno': 'rapport-de-techno.md'
-      - 'Projet de session': 'projet-de-session.md'
-  - 'Outils':
-      - 'Cartographie': 'cartographie.md'
-      - 'Sites Web': 'sites.md'
-      - 'Zotero': 'zotero.md'
+  - "Évaluations":
+      - "Résumé des évaluations": "evaluations-sommatives.md"
+      - "Approbation de projet": "approbation-de-projet.md"
+      - "Rapport de techno": "rapport-de-techno.md"
+      - "Projet de session": "projet-de-session.md"
+  - "Outils":
+      - "Cartographie": "cartographie.md"
+      - "Sites Web": "sites.md"
+      - "Zotero": "zotero.md"
 
 markdown_extensions:
   - admonition
@@ -72,7 +72,10 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
-docs_dir: 'wiki'
-site_dir: 'www'
+docs_dir: "wiki"
+site_dir: "www"
 use_directory_urls: True
