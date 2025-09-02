@@ -23,6 +23,8 @@ theme:
 plugins:
   - search
   - table-reader
+  - markmap:
+      base_path: maps
 
 extra_css:
   - css/extra.css
@@ -48,6 +50,7 @@ nav:
       - "Horaire de rencontre": "horaire-rencontre.md"
   - "Outils":
       - "Cartographie": "cartographie.md"
+      - "Exemple de carte": "carte-debrider-ia.md"
       - "Sites Web": "sites.md"
       - "Zotero": "zotero.md"
 
@@ -68,6 +71,8 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.tabbed:
       alternate_style: true
+  - markdown_include.include:
+      base_path: maps
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid

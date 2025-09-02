@@ -1,5 +1,6 @@
 mkdocs-material
 markdown-include
 mkdocs-table-reader-plugin
+mkdocs-markmap
 openpyxl
 pyyaml
