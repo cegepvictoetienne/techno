@@ -1,0 +1,70 @@
+[project]
+site_name = "Technologies Émergentes"
+site_dir = "site"
+site_url = "https://techno.profinfo.ca"
+docs_dir =  "wiki"
+
+nav = [
+  {"Page principale" = "index.md"},
+  {"Leçons" = [
+    {"Introduction" = "introduction.md"},
+    {"Veille technologique" = "veille-technologique.md"},
+    {"Identification des besoins" = "identification-des-besoins.md"},
+    {"Recherche" = "recherche.md"},
+    {"Matrice de décision" = "matrice-decision.md"},
+    {"Matrice Eisenhower" = "matrice-eisenhower.md"},
+  ]},
+  {"Évaluations" = [
+    {"Résumé des évaluations" = "evaluations-sommatives.md"},
+    {"Approbation de projet" = "approbation-de-projet.md"},
+    {"Rapport de techno" = "rapport-de-techno.md"},
+    {"Projet de session" = "projet-de-session.md"},
+    {"Horaire de rencontre" = "horaire-rencontre.md"},
+  ]},
+  {"Outils" = [
+    {"Cartographie" = "cartographie.md"},
+    {"Exemple de carte" = "carte-debrider-ia.md"},
+    {"Sites Web" = "sites.md"},
+    {"Zotero" = "zotero.md"},
+  ]},
+]
+
+[project.theme]
+name = "material"
+variant = "classic"
+favicon = "images/favicon.png"
+language = "fr"
+features = [
+  "content.code.copy",
+]
+
+[project.theme.icon.admonition]
+note = "fontawesome/solid/note-sticky"
+abstract = "fontawesome/solid/book"
+info = "fontawesome/solid/circle-info"
+tip = "fontawesome/solid/bullhorn"
+success = "fontawesome/solid/check"
+question = "fontawesome/solid/circle-question"
+warning = "fontawesome/solid/triangle-exclamation"
+failure = "fontawesome/solid/bomb"
+danger = "fontawesome/solid/skull"
+bug = "fontawesome/solid/robot"
+example = "fontawesome/solid/flask"
+quote = "fontawesome/solid/quote-left"
+
+[project.plugins]
+search = {}
+
+[project.markdown_extensions.pymdownx.superfences]
+custom_fences = [
+  { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" }
+]
+[project.markdown_extensions.admonition]
+[project.markdown_extensions.attr_list]
+[project.markdown_extensions.pymdownx.emoji]
+emoji_index = "zensical.extensions.emoji.twemoji"
+emoji_generator = "zensical.extensions.emoji.to_svg"
+[project.markdown_extensions.pymdownx.details]
+
+[project.markdown_extensions.pymdownx.snippets]
+base_path = "maps"

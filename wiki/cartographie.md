@@ -7,18 +7,23 @@ Une cartographie peut être très personnelle.
 Commençons avec le concept central du cours, la veille technologique.
 
 !!! figure "Concept racine seulement"
-    {!racine-seulement.mm.md!}
+    ```mermaid
+    --8<-- "racine-seulement.mm.md"
+    ```
 
 Durant le cours, vous allez découvrir des sujets reliés au concept central :
 
 !!! figure "Concept avec sujets reliés"
-    {!premier-niveau.mm.md!}
+    ```mermaid
+    --8<-- "premier-niveau.mm.md"
+    ```
 
 Pour bien comprendre le sujet, il faut parfois faire des recherches pour approfondir certains aspects. Par exemple, la démarche pourrait être détaillée comme suit :
 
 !!! figure "Approfondir un aspect"
-    {!avec-noeuds.mm.md!}
-
+    ```mermaid
+    --8<-- "avec-noeuds.mm"
+    ```
 
 ## Résultat
 

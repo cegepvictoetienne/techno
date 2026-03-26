@@ -1,1 +1,3 @@
-{!debrider-ia.mm.md!}
+```mermaid
+--8<-- "debrider-ia.mm.md"
+```

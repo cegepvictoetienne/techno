@@ -1,1 +1,2 @@
-# Veille technologique
+mindmap
+  root((Veille technologique))
