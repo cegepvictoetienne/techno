@@ -6,6 +6,7 @@ docs_dir =  "wiki"
 
 nav = [
   {"Page principale" = "index.md"},
+  {"Horaire" = "horaire.md"},
   {"Leçons" = [
     {"Introduction" = "introduction.md"},
     {"Veille technologique" = "veille-technologique.md"},
@@ -27,16 +28,52 @@ nav = [
     {"Sites Web" = "sites.md"},
     {"Zotero" = "zotero.md"},
   ]},
+  {"Déclaration sur l'utilisation de l'IA" = "declaration-ia.md"}
+
 ]
+
+
+extra_css = ["stylesheets/all.css", "stylesheets/extra.css"]
 
 [project.theme]
 name = "material"
-variant = "classic"
-favicon = "images/favicon.png"
+custom_dir = "overrides"
+logo = "images/logo.png"
+favicon = "favicon.ico"
 language = "fr"
 features = [
+  "content.code.annotate",
   "content.code.copy",
+  "content.code.select",
+  "content.footnote.tooltips",
+  "content.tabs.link",
+  "content.tooltips",
+  "navigation.footer",
+  "navigation.indexes",
+  "navigation.instant",
+  "navigation.instant.prefetch",
+  "navigation.path",
+  "navigation.sections",
+  "navigation.tabs",
+  "navigation.top",
+  "navigation.tracking",
+  "search.highlight",
 ]
+
+[[project.theme.palette]]
+scheme = "default"
+primary = "teal"
+accent = "teal"
+toggle.icon = "lucide/sun"
+toggle.name = "Passer en mode sombre"
+
+[[project.theme.palette]]
+scheme = "slate"
+primary = "teal"
+accent = "teal"
+toggle.icon = "lucide/moon"
+toggle.name = "Passer en mode clair"
+
 
 [project.theme.icon.admonition]
 note = "fontawesome/solid/note-sticky"
